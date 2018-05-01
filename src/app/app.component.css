@@ -20,7 +20,7 @@ li a {
 }
 
 li a:hover {
-    background-color: rgb(49, 218, 100);
+    background-color: #79be40;
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
