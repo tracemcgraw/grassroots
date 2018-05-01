@@ -25,3 +25,8 @@ li a:hover {
     -ms-transform: scale(0.8);
     transform: scale(0.8);
 }
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 55px;
+}
