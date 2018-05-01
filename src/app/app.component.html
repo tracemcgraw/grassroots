@@ -1,30 +1,14 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <ul>
-    <li><a href="../app/app.component.html">Home</a></li>
-    <li><a href="../app/about/about.component.html">About</a></li>
-    <li><a href="../app/products/products.component.html">products</a></li>
+    <li><a routerLink='./home'>Home</a></li>
+    <li><a routerLink='./about'>About</a></li>
+    <li><a routerLink='/products'>products</a></li>
   </ul>
-<div class="outerbody">
-  <div style="text-align:center; border-color: black">
-    <br>
-    <h1>Grass Roots Gardening</h1>  
-  </div>
-</div>
+<router-outlet></router-outlet>
 
-<div class="image">
-  <img src="../assets/img/grass_roots2.png" style="height: 20em; display: block; margin: 0 auto">
-</div>
 
-<br>
 
-<div class="jumbotron container">
-    <h1 class="display-4">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <p class="lead">
-      <a class="btn btn-success btn-lg" href="#" role="button">Learn more</a>
-    </p>
-  </div>
+
+
 
 
