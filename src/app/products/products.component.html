@@ -7,9 +7,14 @@
     <th>Price:</th>
     <th>In Stock:</th>
   </tr>
-  <tr *ngFor="let product of products">
+  <tr *ngFor="let product of products" (click)="onSelect(product)">
     <td>{{product.name}}</td>
     <td>{{product.price}}</td>
     <td>{{product.isInStock}}</td>
   </tr>
 </table>
+<div *ngIf="selectedProduct">
+ 
+  <h2>{{ selectedProduct.name | uppercase }} Details</h2>
+  <div><span>id: </span>{{selectedProduct.id}}</div>
+  

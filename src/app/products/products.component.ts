@@ -10,9 +10,13 @@ import { PRODUCTS } from './mock-products';
 })
 export class ProductsComponent implements OnInit {
   products = PRODUCTS;
+  selectedProduct:Product;
   constructor() { }
 
   ngOnInit() {
+  }
+  onSelect(product:Product):void{
+    this.selectedProduct=product;
   }
 
 }
